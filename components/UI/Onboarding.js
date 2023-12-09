@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const companyName = "<PromiseDev/>";
+const companyName = "<PromiseDev  />";
 
 const Onboarding = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -36,7 +36,7 @@ const Onboarding = () => {
             <h1 className="animate-rainbow-gradient-text leading-none text-xl font-bold md:text-6xl">
               {companyName}
             </h1>
-            <div className="flex w-max flex-end border pr-[42px] -mr-96">
+            <div className="flex w-max flex-end border pr-10 -mr-96">
               <p className="animate-slide-left italic pt-1 text-[8.5px] md:pt-2 md md:text-lg">
                 God gives the logic, I write the code
               </p>
