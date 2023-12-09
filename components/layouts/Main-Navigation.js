@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -40,14 +40,18 @@ const MainNavigation = () => {
     }
   };
 
+  useEffect(() => {
+    if (isOpen) {
+      toggleDrawer();
+    }
+  }, [router.pathname]);
+
   const companyName = "<PromiseDev/>";
   return (
     <>
       {" "}
       <header
-        className={`relative z-20 duration-500 flex justify-between items-center h-20 pt-2 px-5 md:pt-10 md:px-8 ${
-          isOpen ? "bg-primary" : ""
-        }`}
+        className={`relative z-20 duration-500 flex justify-between items-center h-20 pt-2 px-5 md:pt-10 md:px-8 bg-primary`}
       >
         <div>
           <h1 className="animate-shimmering-silver-text leading-none text-lg font-bold md:text-4xl">
