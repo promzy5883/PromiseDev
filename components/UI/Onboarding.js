@@ -37,7 +37,7 @@ const Onboarding = () => {
               {companyName}
             </h1>
             <div className="flex w-max flex-end border pr-10 -mr-96">
-              <p className="animate-slide-left italic pt-1 text-[8.5px] md:pt-2 md md:text-lg">
+              <p className="animate-slide-left italic pr-3 pt-1 text-[8.5px] md:pt-2 md md:text-lg">
                 God gives the logic, I write the code
               </p>
             </div>
