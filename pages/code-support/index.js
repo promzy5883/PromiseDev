@@ -40,7 +40,7 @@ const CodeSupport = () => {
           <div className="z-10 flex-shrink-0 h-10 w-10 rounded-full overflow-hidden">
             {" "}
             <Image
-              src="/images/icon/code-support-icon.gif"
+              src="images/icon/code-support-icon.gif"
               alt="Code Debugging Zone: Unraveling Complexities with OpulenceDeveloper"
               className="h-full w-full"
               loading="eager"
@@ -79,7 +79,7 @@ const CodeSupport = () => {
           >
             Reach out
             <Image
-              src="/images/icon/arrow-right.svg"
+              src="images/icon/arrow-right.svg"
               alt="Code SOS: Tap for Instant WhatsApp Assistance from OpulenceDeveloper"
               loading="eager"
               priority

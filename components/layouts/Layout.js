@@ -9,7 +9,7 @@ const Layout = (props) => {
       <div className="fixed z-0 bottom-0 right-0 left-0 top-0 z-20 bg-gradient-to-t from-transparent h-screen w-full">
         {" "}
         <Image
-          src="/images/hero.png"
+          src="images/hero.png"
           alt="Dynamic Horizon: The Visual Canvas of Promise's Portfolio"
           style={{ filter: "brightness(0.2)" }}
           className="h-full w-full object-cover"

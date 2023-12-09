@@ -69,7 +69,7 @@ const SectionThree = () => {
             >
               <div className="h-64 w-full rounded-tl-lg rounded-tr-lg overflow-hidden md:h-72">
                 <Image
-                  src={`/images/${openSourceProjectData.image}`}
+                  src={`images/${openSourceProjectData.image}`}
                   loading="eager"
                   priority
                   alt={openSourceProjectData.image}
@@ -93,7 +93,7 @@ const SectionThree = () => {
                 <p className="text-sm">Open in GitHub</p>{" "}
                 <div className="ml-1">
                   <Image
-                    src="/images/icon/arrow-right.svg"
+                    src="images/icon/arrow-right.svg"
                     alt="GitHub Link: Explore OpulenceDeveloper's Projects on GitHub"
                     loading="eager"
                     priority
@@ -121,7 +121,7 @@ const SectionThree = () => {
               className="h-24 mb-5 mx-3 w-40 md:w-52"
             >
               <Image
-                src={`/images/${brandsWorkedWithData.logo}`}
+                src={`images/${brandsWorkedWithData.logo}`}
                 alt={brandsWorkedWithData.alt}
                 className="h-full w-full object-contain"
                 width={208}
@@ -162,7 +162,7 @@ const SectionThree = () => {
         >
           Send Message
           <Image
-            src="/images/icon/arrow-right.svg"
+            src="images/icon/arrow-right.svg"
             alt="Message Icon: Reach Out and Connect with OpulenceDeveloper"
             className="h-4 w-4 ml-2"
             width={16}

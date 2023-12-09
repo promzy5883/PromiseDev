@@ -15,7 +15,7 @@ const ProjectsList = (props) => {
     >
       <div className="h-24 w-24 bg-white overflow-hidden rounded-full p-1">
         <Image
-          src={`/images/icon/${projectData.image}`}
+          src={`images/icon/${projectData.image}`}
           alt={projectData.alt}
           className="w-full h-full"
           loading="eager"

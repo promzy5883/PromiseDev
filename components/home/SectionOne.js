@@ -64,7 +64,7 @@ const SectionOne = () => {
             <div className="h-10 w-10 md:h-20 md:w-20">
               {" "}
               <Image
-                src="public/images/icon/hi-icon.gif"
+                src="images/icon/hi-icon.gif"
                 alt="Hello in Vibrant Typography: A Friendly Greeting from OpulenceDeveloper"
                 loading="eager"
                 priority
@@ -96,7 +96,7 @@ const SectionOne = () => {
           <div className="h-5 w-5 ml-2 rounded-full overflow-hidden md:h-7 md:w-7">
             {" "}
             <Image
-              src="/images/icon/send-icon.gif"
+              src="images/icon/send-icon.gif"
               alt="Message Icon: Reach Out and Connect with OpulenceDeveloper"
               className="w-full h-full"
               loading="eager"

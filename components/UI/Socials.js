@@ -38,7 +38,7 @@ const Socials = () => {
             >
               <div className="h-8 w-8 overflow-hidden rounded-full">
                 <Image
-                  src={`/images/icon/${socialInfoData.imageName}-icon.gif`}
+                  src={`images/icon/${socialInfoData.imageName}-icon.gif`}
                   alt={`Connect on ${socialInfoData.imageName}: Join OpulenceDeveloper's Network on Social Media`}
                   className="w-full h-full"
                   width={43.7}

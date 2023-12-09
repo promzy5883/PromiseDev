@@ -43,7 +43,7 @@ export default function App({ Component, pageProps }) {
           }}
         />
         <meta name="theme-color" content="#03262e" />
-        <meta property="og:image" content="/images/myImage.jpeg" />
+        <meta property="og:image" content="images/myImage.jpeg" />
         <meta property="og:url" content="https://PromiseDev.github.io" />
         <meta property="og:type" content="website" />
       </Head>

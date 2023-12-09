@@ -93,7 +93,7 @@ const MobileNavigation = (props) => {
           <p> Send Message</p>
 
           <Image
-            src="/images/icon/arrow-right.svg"
+            src="images/icon/arrow-right.svg"
             alt="Message Icon: Reach Out and Connect with OpulenceDeveloper"
             className="h-4 w-4 ml-2"
             width={16}

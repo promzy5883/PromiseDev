@@ -8,8 +8,7 @@ const sendMessageHandler = (name, type) => {
   );
 };
 
-
-const Products = (props) => { 
+const Products = (props) => {
   return (
     <div className="border-primary1 border-t-2 border-opacity-50  flex flex-wrap justify-evenly mx-5 pt-3 mt-3 md:pt-7 md:mt-9 md:mx-12">
       {props.productInfo.map((productData, index) => (
@@ -31,7 +30,9 @@ const Products = (props) => {
           <div className="px-2 py-5 space-y-2 mt-2 bg-primary2">
             <div className="flex justify-between text-white">
               <div className="space-y-2">
-                <p className="font-semibold text-base md:text-lg">{productData.name}</p>
+                <p className="font-semibold text-base md:text-lg">
+                  {productData.name}
+                </p>
                 <p className="text-sm md:text-base">{productData.type}</p>
               </div>
               <a
@@ -42,7 +43,7 @@ const Products = (props) => {
                 <p className="text-xs">Live Project</p>{" "}
                 <div className="ml-1">
                   <Image
-                    src="/images/icon/arrow-right.svg"
+                    src="images/icon/arrow-right.svg"
                     alt="arrow right icon"
                     loading="eager"
                     priority
