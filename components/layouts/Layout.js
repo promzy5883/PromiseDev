@@ -20,7 +20,9 @@ const Layout = (props) => {
         />{" "}
       </div>
       <div className="relative">
-        <MainNavigation />
+        <div className="w-full fixed top-0 z-50">
+          <MainNavigation />
+        </div>
         <main className="relative z-40">{props.children}</main>
       </div>
     </>

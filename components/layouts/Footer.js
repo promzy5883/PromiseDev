@@ -6,7 +6,7 @@ const codingQuotes = [
   {
     link: "/",
     quotes: "1's and 0's do not lie",
-    cite: "https://PromiseDev.github.io",
+    cite: "https://promzy5883.github.io/PromiseDev",
   },
   {
     link: "/code-support",

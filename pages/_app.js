@@ -37,14 +37,17 @@ export default function App({ Component, pageProps }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Promise Onuoha | Frontend Software Engineer",
-              url: "https://PromiseDev.github.io",
+              url: "https://promzy5883.github.io/PromiseDev",
               logo: "https://opulencedeveloper.com/favicon.ico", // URL to your logo image
             }),
           }}
         />
         <meta name="theme-color" content="#03262e" />
         <meta property="og:image" content="images/myImage.jpeg" />
-        <meta property="og:url" content="https://PromiseDev.github.io" />
+        <meta
+          property="og:url"
+          content="https://promzy5883.github.io/PromiseDev"
+        />
         <meta property="og:type" content="website" />
       </Head>
       {isOnboarding && <Onboarding />}

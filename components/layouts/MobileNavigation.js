@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-import Typewriter from "typewriter-effect";
 import handleWhatsAppClick from "@/helpers/whatsapp";
 
 const navLinks = [
@@ -23,8 +22,6 @@ const MobileNavigation = (props) => {
   const router = useRouter();
   const activeLink = router.pathname;
 
-  const companyName = "<PromiseDev/>";
-
   const sendMessageHandler = () => {
     handleWhatsAppClick(
       "Hello! 👋 I just visited your portfolio and I'm truly inspired by your journey and skills. I'd love to connect and potentially discuss collaboration opportunities or seek advice in the field. Looking forward to chatting with you further! 🚀"
@@ -33,39 +30,7 @@ const MobileNavigation = (props) => {
 
   return (
     <div className="overflow-y-auto bg-white text-white pb-8 w-full h-full">
-      <div className="bg-primary flex justify-between items-center py-8 px-5">
-        <div>
-          <h1 className="animate-shimmering-silver-text font-poppins leading-none text-xl font-bold text-medium md:text-4xl">
-            {companyName}
-          </h1>
-          <div className="italic pl-12 text-[10px] md:pl-28 md:text-base">
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString(
-                    '<span className="italic">God gives the logic, I write the code</span>'
-                  )
-                  .start();
-              }}
-              options={{
-                typeSpeed: 100,
-                cursor: '<span class="text-[9px]">|</span>',
-                html: false,
-              }}
-            />
-          </div>
-        </div>
-        <button
-          className={`${props.navAnimationClass} block hamburger 2xl:hidden focus:outline-none`}
-          type="button"
-          onClick={props.onClick}
-        >
-          <span className="hamburger-top"></span>
-          <span className="hamburger-middle"></span>
-          <span className="hamburger-bottom"></span>
-        </button>
-      </div>
-      <div className="overflow-y-auto h-[80%]">
+      <div className="overflow-y-auto h-full">
         {" "}
         <div>
           {" "}

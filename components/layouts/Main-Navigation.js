@@ -44,7 +44,11 @@ const MainNavigation = () => {
   return (
     <>
       {" "}
-      <header className="relative z-20 flex justify-between items-center h-20 pt-2 px-5 md:pt-10 md:px-8">
+      <header
+        className={`relative z-20 duration-500 flex justify-between items-center h-20 pt-2 px-5 md:pt-10 md:px-8 ${
+          isOpen ? "bg-primary" : ""
+        }`}
+      >
         <div>
           <h1 className="animate-shimmering-silver-text leading-none text-lg font-bold md:text-4xl">
             {companyName}
@@ -92,14 +96,11 @@ const MainNavigation = () => {
       </header>
       <Portal>
         <div
-          className={` fixed inset-y-0 h-screen w-screen z-50 lg:hidden transform  ${
+          className={` fixed h-[calc(100vh-80px)] bottom-0 w-screen z-50 lg:hidden transform  ${
             isOpen ? "translate-y-0" : "-translate-y-[120%] opacity-60"
           } transition-transform duration-1000 ease-in-out`}
         >
-          <MobileNavigation
-            navAnimationClass={navAnimationClass}
-            onClick={toggleDrawer}
-          />
+          <MobileNavigation navAnimationClass={navAnimationClass} />
         </div>
       </Portal>
     </>
