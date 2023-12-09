@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const companyName = "<PromiseDev  />";
+const companyName = "<PromiseDev    />";
 
 const Onboarding = () => {
   const [isVisible, setIsVisible] = useState(true);
