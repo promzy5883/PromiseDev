@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const companyName = "<PromiseDev/>";
+const companyName = "<Promise_Developer/>";
 
 const Onboarding = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -32,7 +32,7 @@ const Onboarding = () => {
       {isPageLoaded && (
         <div className="h-56 flex flex-col items-center justify-center">
           {" "}
-          <div className="flex flex-col overflow-x-hidden w-auto z-50 items-end justify-center h-max animate-zoom-out">
+          <div className="flex flex-col overflow-x-hidden w-max z-50 items-end justify-center h-max animate-zoom-out">
             <h1 className="animate-rainbow-gradient-text leading-none text-xl font-bold md:text-6xl">
               {companyName}
             </h1>
