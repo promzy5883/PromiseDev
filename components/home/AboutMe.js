@@ -43,7 +43,7 @@ export default function AboutMe() {
           </div>
           <div className="w-full flex flex-col">
             <div className="relative w-full z-50 text-xl space-y-3  md:text-xl 2xl:text-2xl ">
-              <h2 className="leading-[35px] text-justify font-semibold text-white max-[500px]:text-start">
+              <h2 className="leading-[35px] text-justify font-semibold text-white ">
                 I am well organized, focused, resourceful, self - directed,
                 dedicated, flexible and competent person who has a passionate
                 commitment to workplace, priorities and solution development,
