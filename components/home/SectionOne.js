@@ -64,7 +64,7 @@ const SectionOne = () => {
             <div className="h-10 w-10 md:h-20 md:w-20">
               {" "}
               <Image
-                src="/images/icon/hi-icon.gif"
+                src="https://github.com/promzy5883/PromiseDev/tree/master/public/images/icon/hi-icon.gif"
                 alt="Hello in Vibrant Typography: A Friendly Greeting from OpulenceDeveloper"
                 loading="eager"
                 priority
