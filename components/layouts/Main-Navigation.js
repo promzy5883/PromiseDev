@@ -103,7 +103,7 @@ const MainNavigation = () => {
       <Portal>
         <div
           className={` fixed h-[calc(100dvh-80px)] bottom-0 w-screen z-50 lg:hidden transform  ${
-            isOpen ? "translate-y-0" : "-translate-y-[120%] opacity-60"
+            isOpen ? "translate-y-0" : "-translate-y-[140%] opacity-60"
           } transition-transform duration-1000 ease-in-out`}
         >
           <MobileNavigation navAnimationClass={navAnimationClass} />
