@@ -36,7 +36,7 @@ const Onboarding = () => {
             <h1 className="animate-rainbow-gradient-text leading-none text-xl font-bold md:text-6xl">
               {companyName}
             </h1>
-            <div className="flex w-max flex-end border pr-10 -mr-96 border-white">
+            <div className="flex w-max flex-end border pr-10 -mr-96 border-white max-[500px]:mr-0">
               {" "}
               <p className="animate-slide-left italic pt-1 text-[8.5px] pr-3 md:pt-2 md md:text-lg">
                 God gives the logic, I write the code
