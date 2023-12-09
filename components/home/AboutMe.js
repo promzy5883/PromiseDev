@@ -48,10 +48,10 @@ export default function AboutMe() {
                 dedicated, flexible and competent person who has a passionate
                 commitment to workplace, priorities and solution development,
                 within team and individual environments. An Erudite Software,
-                Engineer with 1+ years of experience in Networking, System
-                engineering and Software development according to client needs.
-                Expertise in debugging, troubleshoot, and executing application
-                programs to make sure it delivers expected output.
+                Engineer with 2+ years of experience in Networking, Software
+                development according to client needs. Expertise in debugging,
+                troubleshoot, and executing application programs to make sure it
+                delivers expected output.
               </h2>
             </div>
             <div className="relative w-full z-50 text-xl space-y-3  md:text-xl 2xl:text-2xl py-8">
