@@ -35,7 +35,7 @@ const CodeSupport = () => {
       </Head>{" "}
       <section>
         {" "}
-        <div className="relative rounded-tl rounded-tr overflow-hidden flex items-center mt-20J ml-5 md:mt-28 md:ml-12 ">
+        <div className="relative rounded-tl rounded-tr overflow-hidden flex items-center mt-20 ml-5 md:mt-28 md:ml-12 ">
           {" "}
           <div className="z-10 flex-shrink-0 h-10 w-10 rounded-full overflow-hidden">
             {" "}
