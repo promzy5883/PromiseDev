@@ -38,7 +38,7 @@ export default function AboutMe() {
       <div className="relative z-20 text-center flex flex-col h-max py-16 items-center justify-center space-y-8 text-primary1 px-5 md:px-12 ">
         <div className="w-full md:w-[95%]">
           {" "}
-          <div className="relative z-50 flex flex-wrap justify-center items-center animate-text-glitch">
+          <div className="relative z-50 flex flex-wrap justify-center items-center">
             <p className="text-lg font-medium md:text-4xl mb-12">About Me 👤</p>
           </div>
           <div className="w-full flex flex-col">
