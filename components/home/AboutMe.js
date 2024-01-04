@@ -97,7 +97,7 @@ export default function AboutMe() {
             <div className="flex w-full gap-x-5 gap-y-5 flex-wrap">
               <a
                 download=""
-                href="/pdf/Resume-Promise-Onuoha.pdf"
+                href="pdf/Resume-Promise-Onuoha.pdf"
                 className="border w-max border-primary1 rounded-md flex items-center px-4 py-3 animate-flicker-neon"
               >
                 Download Resume
