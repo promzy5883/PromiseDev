@@ -44,14 +44,15 @@ export default function AboutMe() {
           <div className="w-full flex flex-col">
             <div className="relative w-full z-50 text-xl space-y-3  md:text-xl 2xl:text-2xl ">
               <h2 className="leading-[35px] text-justify font-semibold text-white ">
-                I am well organized, focused, resourceful, self - directed,
+                I am a well organized, focused, resourceful, self - directed,
                 dedicated, flexible and competent person who has a passionate
                 commitment to workplace, priorities and solution development,
-                within team and individual environments. An Erudite Software,
-                Engineer with 2+ years of experience in Networking, Software
-                development according to client needs. Expertise in debugging,
-                troubleshoot, and executing application programs to make sure it
-                delivers expected output.
+                within team and individual environments. An Erudite Front-end
+                developer with 2+ years of coding experience and 1+ years of
+                professional experience in Networking, Software development
+                according to client needs. Expertise in debugging, troubleshoot,
+                and executing application programs to make sure it delivers
+                expected output.
               </h2>
             </div>
             <div className="relative w-full z-50 text-xl space-y-3  md:text-xl 2xl:text-2xl py-8">
@@ -93,13 +94,22 @@ export default function AboutMe() {
                 );
               })}
             </div>
-            <a
-              href="https://matching.turing.com/developer-resume-preview/d93eaca0b89e08a46291a970cc871c34976e52871619f1"
-              target="_blank"
-              className="border w-max border-primary1 rounded-md flex items-center px-4 py-3 animate-flicker-neon"
-            >
-              View Online Resume
-            </a>
+            <div className="flex w-full gap-x-5 gap-y-5 flex-wrap">
+              <a
+                download=""
+                href="/pdf/Resume-Promise-Onuoha.pdf"
+                className="border w-max border-primary1 rounded-md flex items-center px-4 py-3 animate-flicker-neon"
+              >
+                Download Resume
+              </a>
+              <a
+                href="https://matching.turing.com/developer-resume-preview/d93eaca0b89e08a46291a970cc871c34976e52871619f1"
+                target="_blank"
+                className="border w-max border-primary1 rounded-md flex items-center px-4 py-3 animate-flicker-neon"
+              >
+                View Turing Profile
+              </a>
+            </div>
           </div>
         </div>
       </div>
